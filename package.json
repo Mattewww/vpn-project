@@ -1,0 +1,19 @@
+{
+  "name": "vpn-project",
+  "version": "1.0.0",
+  "description": "Basic tailwind css v4 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "vpn project"
+  ],
+  "author": "Mattew",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
